@@ -18,6 +18,12 @@ export const childRoutes = [
     data: { icon: 'table_chart', text: 'Tables' }
   },
   {
+    path: 'list',
+    loadChildren: () =>
+      import('./list/list.module').then(m => m.ListModule),
+    data: { icon: 'table_chart', text: 'List' }
+  },
+  {
     path: 'forms',
     loadChildren: () => import('./forms/forms.module').then(m => m.FormsModule),
     data: { icon: 'assignment', text: 'Forms' }
