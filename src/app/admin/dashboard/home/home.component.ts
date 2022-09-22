@@ -26,22 +26,8 @@ export class HomeComponent implements OnInit {
         charge: '$899/night',
         location: 'Barcelona, Spain'
       },
-      {
-        imgSrc: 'assets/images/card-2.jpg',
-        name: 'Office Studio',
-        description: `The place is close to Metro Station and bus stop just 2 min by walk and near to "Naviglio"
-              where you can enjoy the night life in London, UK.`,
-        charge: '$1,119/night',
-        location: 'London, UK'
-      },
-      {
-        imgSrc: 'assets/images/card-3.jpg',
-        name: 'Beautiful Castle',
-        description: `The place is close to Metro Station and bus stop just 2 min by walk and near to "Naviglio"
-              where you can enjoy the main night life in Milan.`,
-        charge: '$459/night',
-        location: 'Milan, Italy'
-      }
+      
+      
     ];
   }
 }

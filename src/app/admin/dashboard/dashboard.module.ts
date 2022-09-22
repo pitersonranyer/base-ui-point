@@ -11,6 +11,7 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 import { HomeComponent } from './home/home.component';
 import { StatComponent } from './stat/stat.component';
 
+
 @NgModule({
   imports: [
     CommonModule,
@@ -20,7 +21,8 @@ import { StatComponent } from './stat/stat.component';
     MatCardModule,
     MatTableModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+
   ],
   declarations: [HomeComponent, StatComponent]
 })
