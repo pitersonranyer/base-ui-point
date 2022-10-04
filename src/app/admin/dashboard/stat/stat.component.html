@@ -7,6 +7,6 @@
     <mat-card-subtitle>{{label}}</mat-card-subtitle>
   </mat-card-header>
   <mat-card-actions>
-    <button mat-button >{{detalhe}}</button>
+    <button mat-button [routerLinkActive]="'active'" [routerLink]="['/pix']" >{{detalhe}} </button>
   </mat-card-actions>
 </mat-card>

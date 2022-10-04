@@ -17,12 +17,7 @@ export const childRoutes = [
       import('./tables/tables.module').then(m => m.TablesModule),
     data: { icon: 'table_chart', text: 'Tables' }
   },
-  {
-    path: 'list',
-    loadChildren: () =>
-      import('./list/list.module').then(m => m.ListModule),
-    data: { icon: 'table_chart', text: 'List' }
-  },
+  
   {
     path: 'forms',
     loadChildren: () => import('./forms/forms.module').then(m => m.FormsModule),
@@ -55,5 +50,18 @@ export const childRoutes = [
         m => m.GoogleMapDemoModule
       ),
     data: { icon: 'place', text: 'Google Maps' }
-  }
+  },
+
+  {
+    path: 'list',
+    loadChildren: () =>
+      import('./list/list.module').then(m => m.ListModule),
+    data: { icon: 'table_chart', text: 'List' }
+  },
+
+  {
+    path: 'pix',
+    loadChildren: () =>
+      import('./pix/pix.module').then(m => m.PixModule)
+  },
 ];
