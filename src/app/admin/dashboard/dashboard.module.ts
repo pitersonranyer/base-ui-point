@@ -9,8 +9,6 @@ import { MatGridListModule } from '@angular/material/grid-list';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { HomeComponent } from './home/home.component';
-import { StatComponent } from './stat/stat.component';
-
 
 @NgModule({
   imports: [
@@ -24,6 +22,6 @@ import { StatComponent } from './stat/stat.component';
     MatIconModule,
 
   ],
-  declarations: [HomeComponent, StatComponent]
+  declarations: [HomeComponent]
 })
 export class DashboardModule {}

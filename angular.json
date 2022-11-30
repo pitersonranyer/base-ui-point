@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-material-admin": {
+    "base-ui-point": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -35,7 +35,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-material-admin",
+            "outputPath": "dist/base-ui-point",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -90,24 +90,24 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-material-admin:build"
+            "browserTarget": "base-ui-point:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-material-admin:build:production"
+              "browserTarget": "base-ui-point:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-material-admin:build"
+            "browserTarget": "base-ui-point:build"
           }
         }
       }
     }
   },
-  "defaultProject": "angular-material-admin",
+  "defaultProject": "base-ui-point",
   "cli": {
     "analytics": "83eaf683-78a9-446c-b121-ba730cb7e592"
   }

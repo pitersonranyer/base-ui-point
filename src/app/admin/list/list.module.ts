@@ -10,6 +10,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { ListRoutingModule } from './list-routing.module';
 import { ListComponent } from './list/list.component';
 import { MatListModule } from '@angular/material/list';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MatListModule } from '@angular/material/list';
     MatSortModule,
     MatInputModule,
     MatCheckboxModule,
-    MatListModule
+    MatListModule,
+    MatButtonToggleModule
   ],
   declarations: [ListComponent],
 

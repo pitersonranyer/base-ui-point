@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "./dist/angular-material-admin",
+    "public": "./dist/base-ui-point",
     "ignore": [
       "firebase.json",
       "**/.*",
